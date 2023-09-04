@@ -25,7 +25,7 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience", 
+    name: "Experience",
     hash: "#experience",
   },
   {
@@ -36,28 +36,26 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    title: "100dev Agency",
+    location: "Los Angeles, CA",
+    description: "Extensive web development agency training program.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+    location: "Remote",
+    description: "Freelance front-end developer.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022 - 2023",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Remote",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Express, Node.js and MongoDB.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - present",
   },
 ] as const;
 
@@ -67,13 +65,17 @@ export const projectsData = [
     description:
       "GenFa is an application created for people who need to have a record of the invoices made to a receiver",
     tags: ["React", "React-Bootstrap", "Node.js", "Express", "Mongoose"],
+    githubLink: "https://github.com/imnotseneca/Invoice-withdb",
+    deployLink: 'https://genfa.vercel.app/',
     imageUrl: genFaForm,
   },
   {
     title: "Vegan paradise",
     description:
       "E-commerce with a shopping cart for purchasing products and completing the checkout process via WhatsApp.",
-    tags: ["React", "HTML", "CSS"],
+    tags: ["React", "HTML", "CSS", "Mobile First"],
+    githubLink: "https://github.com/imnotseneca/Vegan-Paradise-2.0",
+    deployLink: 'https://vegan-paradise.vercel.app/',
     imageUrl: veganparadiseImg,
   },
   {
@@ -81,13 +83,17 @@ export const projectsData = [
     description:
       "Institution that serves young students, it provides information about annual enrollment and eligibility for residence.",
     tags: ["HTML", "CSS", "JS vanilla", "IOS animation", "Mobile First"],
+    githubLink: "https://github.com/imnotseneca/casadechivilcoy",
+    deployLink: 'https://casadechivilcoy.vercel.app/',
     imageUrl: CdCHeader,
   },
   {
     title: "GS-Flexability",
     description:
       "Designed for a Circus Artist where we try to expose her teaching skills and physical abilities for people on demand",
-    tags: [ "JS vanilla", "HTML", "CSS", "Mobile First"],
+    tags: ["JS vanilla", "HTML", "CSS", "Mobile First"],
+    githubLink: "https://github.com/imnotseneca/gs-flexibility",
+    deployLink: 'https://imnotseneca.github.io/gs-flexibility/',
     imageUrl: gsheader,
   },
 ] as const;
