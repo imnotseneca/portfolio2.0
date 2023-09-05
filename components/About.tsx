@@ -20,7 +20,7 @@ export default function About() {
     <section
       ref={ref}
       id="about"
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      className="mb-28 max-w-[45rem] leading-8 sm:mb-40 scroll-mt-28"
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
@@ -50,7 +50,7 @@ export default function About() {
         <span className="font-medium">reading</span>. Currently sneaking about{" "}
         <a
           href="https://en.wikipedia.org/wiki/Introduction_to_Algorithms"
-          className=" underline font-medium text-gray-700 focus:scale-[1.15] hover:scale-[1.15] hover:bg-white-950 hover:text-gray-950 active:scale-105 transition"
+          className=" underline font-medium text-gray-700 focus:scale-[1.15] hover:scale-[1.15] hover:bg-white-950 hover:text-gray-950 active:scale-105 transition dark:text-emerald-500 dark:hover:text-emerald-300"
           target="_blank"
         >
           Introduction to Algorithms

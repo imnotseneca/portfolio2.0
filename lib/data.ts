@@ -36,11 +36,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "100dev Agency",
-    location: "Los Angeles, CA",
-    description: "Extensive web development agency training program.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2021",
+    title: "Full-Stack Developer",
+    location: "Remote",
+    description:
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Express, Node.js and MongoDB.",
+    icon: React.createElement(FaReact),
+    date: "2023 - present",
   },
   {
     title: "Front-End Developer",
@@ -50,12 +51,11 @@ export const experiencesData = [
     date: "2022 - 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Remote",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Express, Node.js and MongoDB.",
-    icon: React.createElement(FaReact),
-    date: "2023 - present",
+    title: "100dev Agency",
+    location: "Los Angeles, CA",
+    description: "Extensive web development agency training program.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2021",
   },
 ] as const;
 
@@ -93,7 +93,7 @@ export const projectsData = [
       "Designed for a Circus Artist where we try to expose her teaching skills and physical abilities for people on demand",
     tags: ["JS vanilla", "HTML", "CSS", "Mobile First"],
     githubLink: "https://github.com/imnotseneca/gs-flexibility",
-    deployLink: 'https://imnotseneca.github.io/gs-flexibility/',
+    deployLink: 'https://gsot.netlify.app/',
     imageUrl: gsheader,
   },
 ] as const;

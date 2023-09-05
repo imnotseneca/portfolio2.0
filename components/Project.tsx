@@ -42,7 +42,7 @@ export default function Project({
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
             {description}
           </p>
-          <div className="flex gap-2">
+          <div className="flex gap-2 my-2">
             <a
               href={githubLink}
               target="_blank"

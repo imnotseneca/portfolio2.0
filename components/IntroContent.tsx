@@ -60,16 +60,26 @@ export default function IntroContent() {
           </motion.div>
         </div>
         <motion.h1
-          className="mb-10 mt-10 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+          className="mt-3 mb-1 px-4 text-2xl !leading-[1.5] sm:text-4xl font-bold"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          <span className="font-bold">{`Hello, I'm Bruno.`}</span>{" "}
-          <span className="font-bold">Front-end developer</span> with{" "}
-          <span className="font-bold">2+ years</span> of experience. I enjoy
-          building <span className="italic">sites & apps</span>. My focus is{" "}
-          <span className="underline">React, Node, Express & MongoDB</span>.
+          Hello, I&apos;m Bruno.
         </motion.h1>
+        <motion.p
+          className="text-xl sm:text-2xl my-3"
+          initial={{ opacity: 0, y: 100 }}
+          animate={{ opacity: 1, y: 0 }}
+        >
+          <span className="font-bold">Front-end developer.</span>
+        </motion.p>
+        <motion.p
+          className="my-2 sm:text-lg"
+          initial={{ opacity: 0, y: 100 }}
+          animate={{ opacity: 1, y: 0 }}
+        >
+          I enjoy building <span className="italic">sites & apps.</span>
+        </motion.p>
         <motion.div
           className="flex flex-col sm:flex-row px-2 gap-4 items-center justify-center text-lg font-medium"
           initial={{ opacity: 0, y: 100 }}
@@ -78,7 +88,7 @@ export default function IntroContent() {
         >
           <Link
             href="#contact"
-            className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+            className="group bg-gray-900 text-white mt-4 sm:my-4 px-7 py-3 flex items-center gap-4 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition w-[13rem] h-[3.5rem]"
             onClick={() => {
               setActiveSection("Contact");
               setTimeOfLastClick(Date.now());
@@ -89,7 +99,7 @@ export default function IntroContent() {
           </Link>
           <a
             href="\BCdevCV.docx.pdf"
-            className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-white-950 hover:text-gray-950 active:scale-105 transition borderBlack dark:bg-white/10 dark:text-white/60"
+            className="group bg-white sm:my-4 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-white-950 hover:text-gray-950 active:scale-105 transition borderBlack dark:bg-white/10 dark:text-white/60 w-[13rem] h-[3.5rem]"
             download={true}
           >
             Download CV
@@ -97,7 +107,7 @@ export default function IntroContent() {
           </a>
         </motion.div>
         <motion.div
-          className="flex row gap-2 p-2"
+          className="flex row gap-2 p-2 w-full justify-evenly my-2"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.15 }}
