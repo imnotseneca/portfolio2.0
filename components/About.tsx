@@ -52,6 +52,7 @@ export default function About() {
           href="https://en.wikipedia.org/wiki/Introduction_to_Algorithms"
           className=" underline font-medium text-gray-700 focus:scale-[1.15] hover:scale-[1.15] hover:bg-white-950 hover:text-gray-950 active:scale-105 transition dark:text-emerald-500 dark:hover:text-emerald-300"
           target="_blank"
+          aria-label="Link to wikipedia Introduction to Algorithms"
         >
           Introduction to Algorithms
         </a>
