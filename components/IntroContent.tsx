@@ -98,7 +98,7 @@ export default function IntroContent() {
             <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
           </Link>
           <a
-            href="\BCdevCV.docx.pdf"
+            href="\BCdevCV.pdf"
             className="group bg-white sm:my-4 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-white-950 hover:text-gray-950 active:scale-105 transition borderBlack dark:bg-white/10 dark:text-white/60 w-[13rem] h-[3.5rem]"
             download={true}
             aria-label="Link to Bruno's CV"
