@@ -1,39 +1,29 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![image](https://github.com/imnotseneca/portfolio2.0/assets/103332103/375be891-5556-4aa7-bb39-5b4f7a9469db)
 
-## Getting Started
+# Portfolio. 
 
-First, run the development server:
+<p>This is a web page designed to expose a little bit about my story, my progression over time, and show some projects that i've been worked on.</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### The page is developed with:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- React & Next.js (implementing App Router & Server Actions).
+- TypeScript.
+- Tailwind CSS.
+- Framer Motion.
+- Resend, React-Email.
+- React-hot-toast.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<p>This was my first attempt to implement Framer Motion. It helped me bring a deeper and more immersive user experience, and it's also quite simple to use.</p>
+<p>Some of the text content was manually written in a data file to quickly change it without wasting time searching and looking through lines of code.</p>
+<p>This project was a personal challenge to prove and implement the knowledge I had acquired up to this point in my learning process as a <strong>Software Developer.</strong></p>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### What have I learned on this project?
 
-## Learn More
+- Concepts like **Intersection Observer** and its applications.
+- Writing and implementing **custom hooks**.
+- Using the **Next.js App router and Server Actions**.
+- Gaining confidence in utilizing **Tailwind**.
+- Basics of **TypeScript** data types and their workflow.
+- Using and applying **Context API** to implement dark mode.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-=======
-# portfolio2.0
-Portfolio website made with  Next.js App, Framer Motion, TypeScript, Tailwind CSS, Email
->>>>>>> d05b1450df16225d99a07f5c9bc1aae80720a2c4
+**Link to the project:** https://brunocorrao.vercel.app/
