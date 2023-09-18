@@ -4,7 +4,7 @@ import Experience from "@/components/Experience";
 import IntroContent from "@/components/IntroContent";
 import Projects from "@/components/Projects";
 import SectionDivider from "@/components/SectionDivider";
-import Skills from "@/components/Skills";
+// import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
