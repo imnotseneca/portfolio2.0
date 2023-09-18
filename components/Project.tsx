@@ -34,6 +34,10 @@ export default function Project({
         scale: scaleProgress,
         opacity: opacityProgress,
       }}
+      whileInView="animate"
+      viewport={{
+        once: true,
+      }}
       className="group mb-3 sm:mb-8 last:mb-0"
     >
       <section className="bg-gray-100 max-w-[42rem] border rounded-lg border-black/5 overflow-hidden sm:pr-8 relative sm:h-[24rem] sm:group-even:pl-8 hover:bg-gray-200 transition dark:bg-white/10 dark:hover:bg-white/20 dark:text-white">

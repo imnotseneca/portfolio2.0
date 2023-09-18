@@ -13,21 +13,21 @@ export const links = [
     hash: "#",
   },
   {
-    name: "About",
-    hash: "#about",
+    name: "Experience",
+    hash: "#experience",
   },
   {
     name: "Projects",
     hash: "#projects",
   },
   {
-    name: "Skills",
-    hash: "#skills",
+    name: "About",
+    hash: "#about",
   },
-  {
-    name: "Experience",
-    hash: "#experience",
-  },
+  // {
+  //   name: "Skills",
+  //   hash: "#skills",
+  // },
   {
     name: "Contact",
     hash: "#contact",
@@ -39,21 +39,21 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Remote",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Express, Node.js and MongoDB.",
+      "Currently working as a freelance full-stack developer. My primary stack includes React, Express, Node.js, and MongoDB.",
     icon: React.createElement(FaReact),
     date: "2023 - present",
   },
   {
     title: "Front-End Developer",
     location: "Remote",
-    description: "Freelance front-end developer.",
+    description: "Freelance front-end developer. Using mainly HTML/CSS/JS vanilla.",
     icon: React.createElement(CgWorkAlt),
     date: "2022 - 2023",
   },
   {
     title: "100dev Agency",
     location: "Los Angeles, CA",
-    description: "Extensive web development agency training program.",
+    description: "Extensive web development training program.",
     icon: React.createElement(LuGraduationCap),
     date: "2021",
   },
