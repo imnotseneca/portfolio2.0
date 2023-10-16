@@ -104,7 +104,7 @@ export default function IntroContent() {
           </Link> 
           group bg-white sm:my-4 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-white-950 hover:text-gray-950 active:scale-105 transition borderBlack dark:bg-white/10 dark:text-white/60 w-[13rem] h-[3.5rem]*/}
           <a
-            href="\BCdevCV.pdf"
+            href="\BCdevCV_EN.pdf"
             className="group bg-gray-900 text-white mt-4 sm:my-4 px-7 py-3 flex items-center justify-center gap-4 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition w-[13rem] h-[3.5rem] dark:bg-gray-300 dark:text-neutral-950"
             download={true}
             aria-label="Link to Bruno's CV"
