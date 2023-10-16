@@ -61,9 +61,9 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Genfa",
+    title: "GenFa",
     description:
-      "GenFa is an application created for people who need to have a record of the invoices made to a receiver",
+      "Full-stack web application to create, record and download invoices as PDFs.",
     tags: ["React", "React-Bootstrap", "Node.js", "Express", "Mongoose"],
     githubLink: "https://github.com/imnotseneca/Invoice-withdb",
     deployLink: 'https://genfa.vercel.app/',
@@ -72,7 +72,7 @@ export const projectsData = [
   {
     title: "Vegan paradise",
     description:
-      "E-commerce with a shopping cart for purchasing products and completing the checkout process via WhatsApp.",
+      "E-commerce that integrates the checkout process via WhatsApp.",
     tags: ["React", "HTML", "CSS", "Mobile First"],
     githubLink: "https://github.com/imnotseneca/Vegan-Paradise-2.0",
     deployLink: 'https://vegan-paradise.vercel.app/',
@@ -81,7 +81,7 @@ export const projectsData = [
   {
     title: "Casa de estudiantes de Chivilcoy",
     description:
-      "Institution that serves young students, it provides information about annual enrollment and eligibility for residence.",
+      "Landing page for an institution that serves young students.",
     tags: ["HTML", "CSS", "JS vanilla", "IOS animation", "Mobile First"],
     githubLink: "https://github.com/imnotseneca/casadechivilcoy",
     deployLink: 'https://casadechivilcoy.vercel.app/',
@@ -90,7 +90,7 @@ export const projectsData = [
   {
     title: "GS-Flexability",
     description:
-      "Designed for a Circus Artist where we try to expose her teaching skills and physical abilities for people on demand",
+      "Lading page designed for a Circus Artist. Tried to expose her skills and physical abilities for people on demand.",
     tags: ["JS vanilla", "HTML", "CSS", "Mobile First"],
     githubLink: "https://github.com/imnotseneca/gs-flexibility",
     deployLink: 'https://gsot.netlify.app/',

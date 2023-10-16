@@ -65,28 +65,32 @@ export default function IntroContent() {
           </motion.div>
         </div>
         <motion.h1
-          className="mt-3 mb-1 px-4 text-6xl !leading-[1.5] sm:text-5xl font-bold"
+          className="mt-3 px-4 text-6xl !leading-[1.5] sm:text-5xl font-bold"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
           Hello, I&apos;m Bruno.
         </motion.h1>
         <motion.p
-          className="text-2xl sm:text-2xl my-3"
+          className="text-2xl sm:text-2xl"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          <span className="font-bold">Front-end developer.</span>
+          <span className="font-medium">Front-end developer.</span>
         </motion.p>
         <motion.p
-          className="my-2 sm:text-lg"
+          className="my-2 sm:text-lg max-w-sm mt-4 dark:text-white/50"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
           I enjoy building <span className="italic">sites & apps.</span>
+          <br />
+          Driven by curiosity.
+          <br />
+          Lifelong learner.
         </motion.p>
         <motion.div
-          className="flex flex-col sm:flex-row px-2 gap-4 items-center justify-center text-lg font-medium"
+          className="flex flex-col sm:flex-row px-2 gap-4 items-center justify-center text-lg font-medium mt-5"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}

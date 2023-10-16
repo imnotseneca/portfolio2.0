@@ -13,7 +13,7 @@ export default function Home() {
       className="flex flex-col items-center px-4  scroll-mt-[100rem]"
     >
       <IntroContent />
-      <SectionDivider />
+      {/* <SectionDivider /> */}
       <Experience />
       <Projects />
       <About />
