@@ -22,9 +22,9 @@ export default function About() {
       id="about"
       className="mb-30 mt-30 max-w-[45rem] leading-8 sm:mb-28 sm:mt-28 scroll-mt-28 relative"
     >
-      <div className="bg-[#ebeabf] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#704d4e]"></div>
+      <div className="blue__gradient absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:blue__gradient"></div>
 
-      <div className="bg-[#8b7f80] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#504d34]"></div>
+      <div className="bg-[#8b7f80] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:white__gradient"></div>
 
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
