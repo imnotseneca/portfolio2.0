@@ -20,17 +20,14 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  //fbe2e3
-  //dbd7fb
-  //946263
-  //676394
+  
   return (
     <html lang="en" className="!scroll-smooth">
       <body
         className={`${inter.className} bg-gray-100 text-gray-950 relative  pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
-        <div className="bg-[#8b7f80] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#704d4e]"></div>
-        <div className="bg-[#ebeabf] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#504d34]"></div>
+        <div className="bg-[#989ac97d] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#3d3e5d75]"></div>
+        <div className="bg-[#d8dfc075] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#1e410b30]"></div>
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
             <Header />

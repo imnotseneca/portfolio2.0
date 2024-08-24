@@ -1,8 +1,9 @@
 "use client";
 
 import Image from "next/image";
-import ProfileImage from "@/public/ppic.jpg";
-import DarkModeImage from "@/public/darkmodepic.jpg";
+// import ProfileImage from "@/public/ppic.jpg";
+import ProfileImage from "@/public/1712608421074.jpg";
+// import DarkModeImage from "@/public/darkmodepic.jpg";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsGithub, BsLinkedin } from "react-icons/bs";
@@ -39,13 +40,13 @@ export default function IntroContent() {
             }}
           >
             <Image
-              src={theme === "light" ? ProfileImage : DarkModeImage}
-              alt="Bruno portrait"
+              src={ProfileImage}
+              alt="Bruno's profile picture"
               width={250}
               height={250}
               quality={95}
               priority={true}
-              className="rounded-full object-cover shadow-xl"
+              className="rounded-3xl object-cover shadow-xl"
             ></Image>
             {/* 
                   // THIS REPRESENT A BADGE ABSOLUTE TO PARENT DIV, POSITIONED NEAR THE IMAGE.
@@ -108,9 +109,10 @@ export default function IntroContent() {
           </Link> 
           group bg-white sm:my-4 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-white-950 hover:text-gray-950 active:scale-105 transition borderBlack dark:bg-white/10 dark:text-white/60 w-[13rem] h-[3.5rem]*/}
           <a
-            href="\BCdevCV_EN.pdf"
+            href="/BCdevCV_EN.pdf"
             className="group bg-gray-900 text-white mt-4 sm:my-4 px-7 py-3 flex items-center justify-center gap-4 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition w-[13rem] h-[3.5rem] dark:bg-gray-300 dark:text-neutral-950"
-            download={true}
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label="Link to Bruno's CV"
           >
             Resume

@@ -2,6 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import { LiaRobotSolid } from "react-icons/lia";
 import veganparadiseImg from "@/public/veganparadise.png";
 import genFaForm from "@/public/genFaForm.png";
 import CdCHeader from "@/public/CdCHeader.png";
@@ -36,10 +37,18 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Automation Developer",
+    location: "Remote",
+    description:
+      "Currently working on the development of integration solutions for external systems and ERPs at Xtract.",
+    icon: React.createElement(LiaRobotSolid),
+    date: "November 2023 - present",
+  },
+  {
     title: "Full-Stack Developer",
     location: "Remote",
     description:
-      "Currently working as a freelance full-stack developer. My primary stack includes React, Express, Node.js, and MongoDB.",
+      "My primary stack includes React, Express, Node.js, and MongoDB. Including tools like POSTMAN and GitHub.",
     icon: React.createElement(FaReact),
     date: "2023 - present",
   },
