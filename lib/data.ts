@@ -40,7 +40,7 @@ export const experiencesData = [
     title: "Automation Developer",
     location: "Remote",
     description:
-      "Currently working on the development of integration solutions for external systems and ERPs at Xtract.",
+      "Currently working on the development of integration solutions for external systems at Xtract.",
     icon: React.createElement(LiaRobotSolid),
     date: "November 2023 - present",
   },
@@ -50,7 +50,7 @@ export const experiencesData = [
     description:
       "My primary stack includes React, Express, Node.js, and MongoDB. Including tools like POSTMAN and GitHub.",
     icon: React.createElement(FaReact),
-    date: "2023 - present",
+    date: "2023 - 2024",
   },
   {
     title: "Front-End Developer",

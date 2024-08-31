@@ -49,7 +49,27 @@ export default function Experience() {
               </h3>
               <p className="font-normal !mt-0">{experience.location}</p>
               <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
-                {experience.description}
+                {experience.description.includes("Xtract") ? (
+                  <span>
+                    {experience.description.split("Xtract").map((part, i) => (
+                      <React.Fragment key={i}>
+                        {part}
+                        {i < experience.description.split("Xtract").length - 1 && (
+                          <a
+                            href="https://xtract.app/en/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="underline font-medium text-gray-950 focus:scale-[1.15] hover:scale-[1.15] hover:bg-white-950 hover:text-gray-950 active:scale-105 transition dark:text-indigo-500 dark:hover:text-indigo-400"
+                          >
+                            Xtract
+                          </a>
+                        )}
+                      </React.Fragment>
+                    ))}
+                  </span>
+                ) : (
+                  experience.description
+                )}
               </p>
             </VerticalTimelineElement>
           </React.Fragment>
