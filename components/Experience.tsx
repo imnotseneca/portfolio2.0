@@ -56,6 +56,7 @@ export default function Experience() {
                         {part}
                         {i < experience.description.split("Xtract").length - 1 && (
                           <a
+                          aria-label="Link to Xtract's homepage"
                             href="https://xtract.app/en/"
                             target="_blank"
                             rel="noopener noreferrer"
